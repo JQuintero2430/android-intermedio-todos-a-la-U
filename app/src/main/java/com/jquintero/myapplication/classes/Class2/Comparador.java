@@ -1,7 +1,6 @@
 package com.jquintero.myapplication.classes.Class2;
 
 public class Comparador {
-
     private int x;
     private int y;
 
