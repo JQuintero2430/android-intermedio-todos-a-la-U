@@ -5,10 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.jquintero.myapplication.R;
-import com.jquintero.myapplication.classes.Class2.Comparador;
-import com.jquintero.myapplication.classes.Class3.CostoVehiculo;
-
-import java.util.ArrayList;
+import com.jquintero.myapplication.classes.Class4.CalculadoraDeCalorias;
+import com.jquintero.myapplication.classes.Class4.CalculadoraEnergiaElectrica;
+import com.jquintero.myapplication.classes.Class5.Recursividad;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,13 +30,37 @@ public class MainActivity extends AppCompatActivity {
         comparador.comparar(); */
 
         // Actividad de la clase 3
-
+        /*
         CostoVehiculo costoVehiculo = new CostoVehiculo();
 
         costoVehiculo.pedirDatos();
 
         System.out.println("Costo diario de gasolina: $" + costoVehiculo.getCostoGasolina());
         System.out.println("Costo diario de energía eléctrica: $" + costoVehiculo.getCostoEnergia());
+        System.out.println("Costo diario de mantenimiento: $" + costoVehiculo.getCostoMantenimiento());
+         */
+
+        // Actividad de la clase 3
+        /*
+        CalculadoraDeCalorias calculadora = new CalculadoraDeCalorias(70, 45, 3.5);
+
+        System.out.println("El usuario quemó un total de: " + calculadora.calcularCaloriasQuemadas() + " calorías");
+          */
+        /*
+        * Almacenamiento de energía hidroeléctrica casera: Utilizando Java y Android Studio, implementar un método que calcule
+        * la cantidad de energía eléctrica generada a partir de la energía potencial del agua almacenada en un tanque. Para ello,
+        * se utilizará la ecuación de la energía potencial, la cual se basa en la masa del agua, la gravedad y la altura de la caída:
+        E = mgh
+
+        * */
+        /*
+        * CalculadoraEnergiaElectrica calculadoraEnergia = new CalculadoraEnergiaElectrica(500, 20);
+
+        System.out.println("La energia potencial generada es: " + calculadoraEnergia.calcularaEnergiaElectrica() + " Joules");
+        * */
+
+        System.out.println(Recursividad.factorial(5));
+
     }
 
 
