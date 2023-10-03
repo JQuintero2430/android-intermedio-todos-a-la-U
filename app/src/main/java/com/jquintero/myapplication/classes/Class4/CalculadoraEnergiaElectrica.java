@@ -4,7 +4,7 @@ public class CalculadoraEnergiaElectrica {
 
     private double altura;
     private double masaAgua;
-    private final double gravedad = 9.81;
+    private final double GRAVEDAD = 9.81;
 
     public CalculadoraEnergiaElectrica(double masaAgua, double altura ) {
         this.altura = altura;
@@ -12,6 +12,6 @@ public class CalculadoraEnergiaElectrica {
     }
 
     public double calcularaEnergiaElectrica() {
-        return altura * masaAgua * gravedad;
+        return altura * masaAgua * GRAVEDAD;
     }
 }

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import com.jquintero.myapplication.R;
 import com.jquintero.myapplication.classes.Class4.CalculadoraDeCalorias;
 import com.jquintero.myapplication.classes.Class4.CalculadoraEnergiaElectrica;
+import com.jquintero.myapplication.classes.Class5.Recursividad;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -45,10 +46,20 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("El usuario quemó un total de: " + calculadora.calcularCaloriasQuemadas() + " calorías");
           */
+        /*
+        * Almacenamiento de energía hidroeléctrica casera: Utilizando Java y Android Studio, implementar un método que calcule
+        * la cantidad de energía eléctrica generada a partir de la energía potencial del agua almacenada en un tanque. Para ello,
+        * se utilizará la ecuación de la energía potencial, la cual se basa en la masa del agua, la gravedad y la altura de la caída:
+        E = mgh
 
-        CalculadoraEnergiaElectrica calculadoraEnergia = new CalculadoraEnergiaElectrica(500, 20);
+        * */
+        /*
+        * CalculadoraEnergiaElectrica calculadoraEnergia = new CalculadoraEnergiaElectrica(500, 20);
 
         System.out.println("La energia potencial generada es: " + calculadoraEnergia.calcularaEnergiaElectrica() + " Joules");
+        * */
+
+        System.out.println(Recursividad.factorial(5));
 
     }
 
