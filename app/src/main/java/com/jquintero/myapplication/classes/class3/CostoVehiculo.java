@@ -1,4 +1,4 @@
-package com.jquintero.myapplication.classes.Class3;
+package com.jquintero.myapplication.classes.class3;
 
 import java.util.ArrayList;
 

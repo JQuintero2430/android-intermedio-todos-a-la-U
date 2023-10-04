@@ -1,4 +1,4 @@
-package com.jquintero.myapplication.classes.Class4;
+package com.jquintero.myapplication.classes.class4;
 
 public class CalculadoraEnergiaElectrica {
 
