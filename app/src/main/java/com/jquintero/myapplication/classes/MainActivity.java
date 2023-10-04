@@ -59,8 +59,10 @@ public class MainActivity extends AppCompatActivity {
         *  System.out.println(Recursividad.factorial(5));
         * System.out.println(ProductividadEsperada.energiaEsperada(1000, 5));
         * */
+        /*
+        * ProgramaCO2.main();
+        * */
 
-        ProgramaCO2.main();
 
 
     }
