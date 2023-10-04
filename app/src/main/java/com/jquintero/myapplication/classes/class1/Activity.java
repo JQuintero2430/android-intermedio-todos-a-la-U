@@ -1,4 +1,4 @@
-package com.jquintero.myapplication.classes.Class1;
+package com.jquintero.myapplication.classes.class1;
 
 public class Activity {
     private String phrase;

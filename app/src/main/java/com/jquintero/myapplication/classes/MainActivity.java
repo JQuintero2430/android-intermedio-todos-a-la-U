@@ -5,9 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.jquintero.myapplication.R;
-import com.jquintero.myapplication.classes.Class4.CalculadoraDeCalorias;
-import com.jquintero.myapplication.classes.Class4.CalculadoraEnergiaElectrica;
-import com.jquintero.myapplication.classes.Class5.Recursividad;
+import com.jquintero.myapplication.classes.class6.ProgramaCO2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,9 +55,13 @@ public class MainActivity extends AppCompatActivity {
         * CalculadoraEnergiaElectrica calculadoraEnergia = new CalculadoraEnergiaElectrica(500, 20);
 
         System.out.println("La energia potencial generada es: " + calculadoraEnergia.calcularaEnergiaElectrica() + " Joules");
+        *
+        *  System.out.println(Recursividad.factorial(5));
+        * System.out.println(ProductividadEsperada.energiaEsperada(1000, 5));
         * */
 
-        System.out.println(Recursividad.factorial(5));
+        ProgramaCO2.main();
+
 
     }
 

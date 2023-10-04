@@ -1,4 +1,4 @@
-package com.jquintero.myapplication.classes.Class2;
+package com.jquintero.myapplication.classes.class2;
 
 public class Comparador {
     private int x;
