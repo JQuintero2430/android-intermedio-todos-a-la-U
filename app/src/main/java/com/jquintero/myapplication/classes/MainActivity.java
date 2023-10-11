@@ -5,7 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.jquintero.myapplication.R;
-import com.jquintero.myapplication.classes.class6.ProgramaCO2;
+import com.jquintero.myapplication.classes.class8.PrintFirstLetter;
+import com.jquintero.myapplication.classes.class8.PrintTriangle;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -60,10 +61,19 @@ public class MainActivity extends AppCompatActivity {
         * System.out.println(ProductividadEsperada.energiaEsperada(1000, 5));
         * */
 
-        ProgramaCO2.main();
+        /*
+        * ProgramaCO2.main();
+        */
 
+        /*
+        * Switch.verifyDay(2);
+        */
+
+        //For.tablaDelCinco();
+
+//        PrintTriangle.printTriangle(8);
+
+        PrintFirstLetter.getFirstLetter();
 
     }
-
-
 }
